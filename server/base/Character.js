@@ -3,6 +3,8 @@ const WalkableECS = require('../ESC/Components/WalkableECS');
 const PositionECS = require('../ESC/Components/PositionECS');
 const clientStack = require('./../clientStack');
 const jobsPool = require('./../Jobs/JobsPool');
+/** @var Game */
+const game = require('./Game');
 
 class Character extends Entity {
     constructor(id, clientId) {
@@ -51,8 +53,7 @@ class Character extends Entity {
     }
 
     updateFrontendData() {
-        const client = clientStack.get(this.clientId);
-        client.game.sendToAll(this, client.player);
+        game.sendToAll(this, client.player);
     }
 }
 

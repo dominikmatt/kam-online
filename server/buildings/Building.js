@@ -1,8 +1,9 @@
-const game = require('./../base/Game');
 const clientStack = require('./../clientStack');
 const jobsPool = require('./../Jobs/JobsPool');
 const BulldozeJob = require('./../Jobs/BulldozeJob');
-
+/** @var Game */
+const game = require('./../base/Game');
+console.log('building');
 class Building {
     constructor(id, type, buildingMatrix) {
         this._position = {
@@ -27,11 +28,9 @@ class Building {
     }
 
     workOnIt() {
-        const client = clientStack.get(this.clientId);
-
         if (100 > this.completionPercent) {
             this._completionPercent = this.completionPercent + 10;
-            client.game.sendToAll(this, client.player);
+            game.sendToAll(this, client.player);
         }
     }
 
@@ -51,14 +50,14 @@ class Building {
             });
         });
 
-        if (!client.game.isBuildable(this._coordinates)) {
+        if (!game.isBuildable(this._coordinates)) {
             this._destroyed = true;
-            client.game.sendToAll(this, client.player);
+            game.sendToAll(this, client.player);
 
             return;
         }
 
-        client.game.setNotBuildable(this._coordinates);
+        game.setNotBuildable(this._coordinates);
     }
 
     sendTo(toPlayer, fromPlayer) {
@@ -83,7 +82,6 @@ class Building {
      * - Set entry point of building.
      */
     addBulldozeJobs() {
-        const client = clientStack.get(this.clientId);
         const positions = [];
         const job = new BulldozeJob(this);
 
@@ -99,7 +97,7 @@ class Building {
                     this._entryPosition.x = this.position.x + posX;
                     this._entryPosition.z = this.position.z + posZ;
 
-                    client.game.map.streetGrid.setWalkableAt(
+                    game.map.streetGrid.setWalkableAt(
                         this._entryPosition.x,
                         this._entryPosition.z,
                         true

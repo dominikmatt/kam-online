@@ -1,15 +1,27 @@
-const PF = require('pathfinding');
-const BuildingStack = require('./../buildings/BuildingStack');
 const Map = require('./Map');
 
+let _singleton = Symbol();
+
 class Game {
-    constructor(clientId) {
-        this.map = new Map(clientId);
+    constructor(singletonToken) {
+        if (_singleton !== singletonToken) {
+            throw new Error('Cannot instantiate directly.');
+        }
+
+        this.map = new Map(this);
 
         this._players = [];
+    }
 
-        /** @var {BuildingStack} */
-        this._buildingStack = new BuildingStack();
+    /**
+     * @return {Game}
+     */
+    static get instance() {
+        if(!this[_singleton]) {
+            this[_singleton] = new Game(_singleton);
+        }
+
+        return this[_singleton]
     }
 
     /**
@@ -64,13 +76,6 @@ class Game {
             object.sendTo(player, me);
         });
     }
-
-    /**
-     * @return {BuildingStack}
-     */
-    get buildingStack() {
-        return this._buildingStack;
-    }
 }
 
-module.exports = Game;
+module.exports = Game.instance;

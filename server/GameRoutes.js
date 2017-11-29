@@ -1,28 +1,49 @@
-const clientStack = require('./clientStack');
-const PF = require('pathfinding');
 const CharacterFactory = require('./base/CharacterFactory');
 const PositionECS = require('./ESC/Components/PositionECS');
+const buildingStack = require('./buildings/BuildingStack');
 
 class GameRoutes {
-    static bind(client) {
-        const clientId = client.id;
+    constructor(game, client) {
+        this.game = game;
+        this.client = client;
 
-        client.on('game.street.build', (data) => {
+        this.bind();
+    }
+
+    bind() {
+        /**
+         * Build a street.
+         */
+        this.client.on('game.street.build', (data) => {
             const posX = data.data.position.x;
             const posZ = data.data.position.z;
-            const clientData = clientStack.get(clientId);
 
-            clientData.game.map.setStreetAt(posX, posZ, true);
+            this.game.map.setStreetAt(posX, posZ, true);
         });
 
-        client.on('game.character.create', (res) => {
+        /**
+         * Create a new character.
+         */
+        this.client.on('game.character.create', (res) => {
             CharacterFactory(null, clientId, res.data.type);
         });
 
-        client.on('game.character.update', (res) => {
+        /**
+         * Update character data.
+         */
+        this.client.on('game.character.update', (res) => {
             const character = CharacterFactory(res.data.characterId, clientId).character;
 
             character.getComponent(PositionECS.key).setData(res.data.position);
+        });
+
+        /**
+         * Build a new building.
+         */
+        this.client.on('game.building.create', (data) => {
+            buildingStack.add(data.data, this.client.id);
+            console.log(buildingStack.get(data.data.buildingId));
+            this.game.sendToAll(buildingStack.get(data.data.buildingId), this.client.player);
         });
     }
 }

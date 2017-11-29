@@ -23,8 +23,8 @@ for(let posX = 0; posX < mapWidth; posX++) {
 }
 
 class Map {
-    constructor(clientId) {
-        this._clientId = clientId;
+    constructor(game) {
+        this.game = game;
         this._mapWidth = mapWidth;
         this._mapHeight = mapHeight;
         this._nodes = nodes;
@@ -39,11 +39,10 @@ class Map {
      * @param {Boolean} walkable
      */
     setStreetAt(posX, posZ, hasStreet) {
-        const client = clientStack.get(this._clientId);
 
         this._nodes[posX][posZ].street = hasStreet;
         this._streetGrid.setWalkableAt(posX, posZ, hasStreet);
-        client.game.sendToAll(this, client.player);
+        this.game.sendToAll(this, client.player);
     }
 
     sendTo(toPlayer, fromPlayer) {
