@@ -1,0 +1,2947 @@
+{
+    "0": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "1": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "2": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "3": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "4": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "5": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "6": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "7": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "8": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "9": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "10": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "11": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "12": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "13": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": false
+        },
+        "-14": {
+            "buildable": false
+        },
+        "-13": {
+            "buildable": false
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "14": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": false
+        },
+        "-14": {
+            "buildable": false
+        },
+        "-13": {
+            "buildable": false
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "15": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": false
+        },
+        "-14": {
+            "buildable": false
+        },
+        "-13": {
+            "buildable": false
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "-15": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "-14": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "-13": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "-12": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "-11": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "-10": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "-9": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "-8": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "-7": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "-6": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "-5": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "-4": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "-3": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "-2": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    },
+    "-1": {
+        "0": {
+            "buildable": true
+        },
+        "1": {
+            "buildable": true
+        },
+        "2": {
+            "buildable": true
+        },
+        "3": {
+            "buildable": true
+        },
+        "4": {
+            "buildable": true
+        },
+        "5": {
+            "buildable": true
+        },
+        "6": {
+            "buildable": true
+        },
+        "7": {
+            "buildable": true
+        },
+        "8": {
+            "buildable": true
+        },
+        "9": {
+            "buildable": true
+        },
+        "10": {
+            "buildable": true
+        },
+        "11": {
+            "buildable": true
+        },
+        "12": {
+            "buildable": true
+        },
+        "13": {
+            "buildable": true
+        },
+        "14": {
+            "buildable": true
+        },
+        "15": {
+            "buildable": true
+        },
+        "-15": {
+            "buildable": true
+        },
+        "-14": {
+            "buildable": true
+        },
+        "-13": {
+            "buildable": true
+        },
+        "-12": {
+            "buildable": true
+        },
+        "-11": {
+            "buildable": true
+        },
+        "-10": {
+            "buildable": true
+        },
+        "-9": {
+            "buildable": true
+        },
+        "-8": {
+            "buildable": true
+        },
+        "-7": {
+            "buildable": true
+        },
+        "-6": {
+            "buildable": true
+        },
+        "-5": {
+            "buildable": true
+        },
+        "-4": {
+            "buildable": true
+        },
+        "-3": {
+            "buildable": true
+        },
+        "-2": {
+            "buildable": true
+        },
+        "-1": {
+            "buildable": true
+        }
+    }
+}
