@@ -28,6 +28,7 @@ io.on('connection', function (client) {
         buildingStack.stack.forEach((building) => {
             building.sendTo(me, me);
         });
+
     });
 
     new GameRoutes(game, client);

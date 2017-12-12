@@ -39,7 +39,7 @@ class Map {
         );
         //this.ground = BABYLON.Mesh.CreateGround("ground", this.mapWidth, this.mapHeight, this.segments, this.scene, true);
         this.ground.material = this.createGroundMaterial();
-        this.ground.material.wireframe = true;
+        this.ground.material.wireframe = false;
 
         this.ground.checkCollisions = true;
         this.ground.isPickable = true;
@@ -96,60 +96,6 @@ class Map {
                     map
                 );
             });
-    }
-
-    createHeightMap() {
-        this.ground = BABYLON.Mesh
-            .CreateGroundFromHeightMap(
-                "ground",
-                `/assets/${this.mapPath}/heightMap.png`,
-                this.mapWidth,
-                this.mapHeight,
-                this.segments,
-                0,
-                80,
-                core.scene,
-                true,
-                this.onGroundCreated.bind(this));
-
-        this.ground.material = this.createGroundMaterial();
-        this.ground.material.wireframe = true;
-
-        this.ground.checkCollisions = true;
-        this.ground.isPickable = true;
-
-        core.scene.onPointerDown = (event, pickInfo) => {
-            if (pickInfo.hit) {
-                if (!this.cube) {
-                    this.cube = new Cube();
-
-                    this.cube.create(pickInfo.pickedPoint);
-                } else {
-                    pickInfo.pickedPoint.y = this.smoothGround(pickInfo.pickedPoint);
-
-                    this.cube.updatePosition(pickInfo.pickedPoint, true);
-                    this.cube.build();
-                    this.cube.sendToServer();
-
-                    this.cube = null;
-                }
-            }
-        };
-
-        /**
-         * @param {PointerEvent} event
-         */
-        core.scene.onPointerMove = (event) => {
-            const pickInfo = core.scene.pick(event.clientX, event.clientY);
-
-            if (!pickInfo.hit) {
-                return;
-            }
-
-            if (this.cube) {
-                this.cube.updatePosition(pickInfo.pickedPoint);
-            }
-        };
     }
 
     /**
@@ -232,7 +178,7 @@ class Map {
 
     createGroundMaterial() {
         const terrainMaterial = new BABYLON.StandardMaterial("texture1", this.scene);
-        terrainMaterial.wireframe = true;
+        terrainMaterial.wireframe = false;
         terrainMaterial.diffuseColor = new BABYLON.Color3(0.29, 0.85, 0.1);
         terrainMaterial.specularColor = new BABYLON.Color3(0.29, 0.85, 0.1);
         terrainMaterial.emissiveColor = new BABYLON.Color3(0.29, 0.85, 0.1);

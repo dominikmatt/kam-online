@@ -3,7 +3,7 @@ const jobsPool = require('./../Jobs/JobsPool');
 const BulldozeJob = require('./../Jobs/BulldozeJob');
 /** @var Game */
 const game = require('./../base/Game');
-console.log('building');
+
 class Building {
     constructor(id, type, buildingMatrix) {
         this._position = {
@@ -28,10 +28,14 @@ class Building {
     }
 
     workOnIt() {
-        if (100 > this.completionPercent) {
-            this._completionPercent = this.completionPercent + 10;
-            game.sendToAll(this, client.player);
+        if (100 <= this.completionPercent) {
+            return;
         }
+
+        const client = clientStack.get(this.clientId);
+
+        this._completionPercent = this.completionPercent + 10;
+        game.sendToAll(this, client.player);
     }
 
     generateCoordinatesArray() {
@@ -92,6 +96,12 @@ class Building {
                     y: this.position.y,
                     z: this.position.z + posZ
                 });
+
+                game.map.streetGrid.setWalkableAt(
+                    this.position.x + posX,
+                    this.position.z + posZ,
+                    false
+                );
 
                 if (1 === item) {
                     this._entryPosition.x = this.position.x + posX;

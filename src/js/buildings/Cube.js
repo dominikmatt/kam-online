@@ -61,7 +61,7 @@ class Cube extends Building {
     }
 
     createBuildingEntryMaterial(particle) {
-        particle.color = new BABYLON.Color4(0, 0, 0, 1);
+        particle.color = new BABYLON.Color4(0, 0, 0, 0.5);
     }
 
     build() {

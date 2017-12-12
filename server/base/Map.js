@@ -39,13 +39,18 @@ class Map {
      * @param {Boolean} walkable
      */
     setStreetAt(posX, posZ, hasStreet) {
-
         this._nodes[posX][posZ].street = hasStreet;
         this._streetGrid.setWalkableAt(posX, posZ, hasStreet);
-        this.game.sendToAll(this, client.player);
+        this.game.sendToAll(this);
     }
 
     sendTo(toPlayer, fromPlayer) {
+        if (!fromPlayer) {
+            fromPlayer = {
+                username: 'all'
+            }
+        }
+
         toPlayer.socket.emit('game.map.update', {
             from: fromPlayer.username,
             to: toPlayer.username,

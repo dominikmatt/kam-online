@@ -53,6 +53,7 @@ class Character extends Entity {
     }
 
     updateFrontendData() {
+        const client = clientStack.get(this.clientId);
         game.sendToAll(this, client.player);
     }
 }
