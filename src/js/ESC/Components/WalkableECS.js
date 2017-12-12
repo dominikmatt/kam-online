@@ -45,7 +45,7 @@ class WalkableECS {
             steps.push(
                 {
                     frame: index + 1,
-                    value: new BABYLON.Vector3(point[0] - 0.5, 1, point[1] - 0.5)
+                    value: new BABYLON.Vector3(point[0] - 0.5, 0, point[1] - 0.5)
                 }
             );
         });

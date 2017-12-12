@@ -43,9 +43,13 @@ class Game {
         // attach the camera to the canvas
         camera.attachControl(this.canvas, false);
 
-        var light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(0, 1, 0), scene);
+        var light = new BABYLON.PointLight("Omni", new BABYLON.Vector3(0, 20, 0), scene);
+        light.specular = new BABYLON.Color3(0,0,0);
+        light.diffuse = new BABYLON.Color3(0.2,0.2,0.2);
 
         scene.gravity = new BABYLON.Vector3(0, -0.1, 0);
+        scene.clearColor = new BABYLON.Color3(0.3, 0.3, 0.3);
+        scene.ambientColor = new BABYLON.Color3(.1, .1, .1);
 
         // Enable Collisions
         scene.collisionsEnabled = false;

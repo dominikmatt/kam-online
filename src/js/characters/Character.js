@@ -24,7 +24,7 @@ class Character extends Entity {
         this.getComponent(PositionECS.key)
             .addOnChangedCallback((position) => {
                 this.character.position.x = position.x + 0.5;
-                this.character.position.y = 1;
+                this.character.position.y = 0;
                 this.character.position.z = position.z + 0.5;
             });
     }

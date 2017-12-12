@@ -1,9 +1,11 @@
 const clientStack = require('./../../clientStack');
 const PF = require('pathfinding');
+/** @var Game */
+const game = require('./../../base/Game');
+
 const pathFinder = new PF.AStarFinder({
     allowDiagonal: false
 });
-
 const walkableStates = {
     standing: 'statnding',
     walking: 'walking'
@@ -28,14 +30,12 @@ class WalkableECS {
      * @return {boolean}
      */
     addGoToPath(toPosition, fromPosition) {
-        const client = clientStack.get(this.clientId);
-
         this.path = pathFinder.findPath(
             fromPosition.x,
             fromPosition.z,
             toPosition.x,
             toPosition.z,
-            client.game.map.streetGrid.clone()
+            game.map.streetGrid.clone()
         );
 
         if (this.path && 0 < this.path.length) {
@@ -53,10 +53,6 @@ class WalkableECS {
         }
 
         return false;
-    }
-
-    findPath(x, z) {
-        const client = clientStack.get(this.clientId);
     }
 
     getData() {
