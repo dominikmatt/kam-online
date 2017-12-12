@@ -1,4 +1,4 @@
-const CharacterFactory = require('./base/CharacterFactory');
+const CharacterFactory = require('./characters/CharacterFactory');
 const PositionECS = require('./ESC/Components/PositionECS');
 const buildingStack = require('./buildings/BuildingStack');
 const clientStack = require('./clientStack');

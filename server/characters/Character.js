@@ -1,16 +1,16 @@
 const Entity = require('../ESC/Entity');
 const WalkableECS = require('../ESC/Components/WalkableECS');
 const PositionECS = require('../ESC/Components/PositionECS');
-const clientStack = require('./../clientStack');
-const jobsPool = require('./../Jobs/JobsPool');
+const clientStack = require('../clientStack');
+const jobsPool = require('../Jobs/JobsPool');
 /** @var Game */
-const game = require('./Game');
+const game = require('../base/Game');
 
 class Character extends Entity {
-    constructor(id, clientId) {
-        super(id, clientId, 'serf');
+    constructor(id, clientId, type) {
+        super(id, clientId, type);
 
-        this.jobType = 'bulldoze';
+        this.jobType = type;
         this.job = null;
 
         this.addComponent(PositionECS);
@@ -26,7 +26,7 @@ class Character extends Entity {
             return;
         }
 
-        this.job = jobsPool.getJob('bulldoze', this);
+        this.job = jobsPool.getJob(this.clientId, this.jobType, this);
 
         if (!this.job) {
             return;

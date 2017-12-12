@@ -1,6 +1,6 @@
 const clientStack = require('./../clientStack');
 const jobsPool = require('./../Jobs/JobsPool');
-const BulldozeJob = require('./../Jobs/BulldozeJob');
+const LaborerJob = require('../Jobs/LaborerJob');
 /** @var Game */
 const game = require('./../base/Game');
 
@@ -23,7 +23,7 @@ class Building {
     }
 
     build() {
-        this.addBulldozeJobs();
+        this.addLaborerJobs();
         this.generateCoordinatesArray();
     }
 
@@ -82,12 +82,12 @@ class Building {
     }
 
     /**
-     * - Generates all steps for the bulldoze job.
+     * - Generates all steps for the laborer job.
      * - Set entry point of building.
      */
-    addBulldozeJobs() {
+    addLaborerJobs() {
         const positions = [];
-        const job = new BulldozeJob(this);
+        const job = new LaborerJob(this);
 
         this.buildingMatrix.forEach((row, posZ) => {
             row.forEach((item, posX) => {
@@ -117,7 +117,7 @@ class Building {
         });
 
         job.positions = positions;
-        jobsPool.addJob(job);
+        jobsPool.addJob(this.clientId, job);
     }
 
     get type() {

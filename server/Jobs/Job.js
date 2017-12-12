@@ -12,6 +12,7 @@ class Job {
         this._type = type;
         this._character = null;
         this._building = building;
+        this._clientId = null;
     }
 
     run() {
@@ -57,6 +58,14 @@ class Job {
 
     get building() {
         return this._building;
+    }
+
+    get clientId() {
+        return this._clientId;
+    }
+
+    set clientId(clientId) {
+        this._clientId = clientId;
     }
 }
 
