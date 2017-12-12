@@ -8,9 +8,7 @@ class JobsPool {
 
         this.date = new Date();
         this.atWorking = [];
-        this.pool = {
-            bulldoze: []
-        }
+        this.pool = {}
     }
 
     static get instance() {
@@ -21,16 +19,25 @@ class JobsPool {
         return this[_singleton]
     }
 
-    addJob(job) {
-        if (!this.pool[job.type]) {
-            this.pool[job.type] = [];
+    addJob(clientId, job) {
+        if (!this.pool[clientId]) {
+            this.pool[clientId] = {};
         }
 
-        this.pool[job.type].push(job);
+        if (!this.pool[clientId][job.type]) {
+            this.pool[clientId][job.type] = [];
+        }
+
+        job.clientId = clientId;
+
+        this.pool[clientId][job.type].push(job);
     }
 
-    getJob(type, character) {
-        const job = this.pool[type].shift();
+    getJob(clientId, type, character) {
+        if (!this.pool[clientId] || !this.pool[clientId][type]) {
+            return;
+        }
+        const job = this.pool[clientId][type].shift();
 
         if (!job) {
             return false;
@@ -52,9 +59,10 @@ class JobsPool {
         const index = this.atWorking.findIndex((currentJob) => {
             return needJob.id === currentJob.id;
         });
-        const job = this.atWorking.splice(index, 1);
-
-        JobsPool.instance.addJob(job.pop());
+        const jobs = this.atWorking.splice(index, 1);
+        const job = jobs.pop();
+        console.log(job);
+        JobsPool.instance.addJob(job.clientId, job);
     }
 }
 

@@ -7,9 +7,9 @@ const jobStates = {
     'done': 'done'
 };
 
-class BulldozeJob extends Job {
+class LaborerJob extends Job {
     constructor(building) {
-        super('bulldoze', building);
+        super('laborer', building);
 
         this.positions = [];
 
@@ -80,4 +80,4 @@ class BulldozeJob extends Job {
     }
 }
 
-module.exports = BulldozeJob;
+module.exports = LaborerJob;
