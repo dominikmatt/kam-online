@@ -34,9 +34,11 @@ class JobsPool {
     }
 
     getJob(clientId, type, character) {
+        // No jobs for clientId or type exists.
         if (!this.pool[clientId] || !this.pool[clientId][type]) {
             return;
         }
+
         const job = this.pool[clientId][type].shift();
 
         if (!job) {
@@ -61,7 +63,7 @@ class JobsPool {
         });
         const jobs = this.atWorking.splice(index, 1);
         const job = jobs.pop();
-        console.log(job);
+
         JobsPool.instance.addJob(job.clientId, job);
     }
 }

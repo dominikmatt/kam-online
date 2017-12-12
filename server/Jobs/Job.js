@@ -65,7 +65,6 @@ class Job {
     }
 
     set clientId(clientId) {
-        console.log('set clientId', clientId);
         this._clientId = clientId;
     }
 }
