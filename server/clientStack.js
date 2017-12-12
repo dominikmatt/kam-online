@@ -23,6 +23,10 @@ class ClientStack {
         };
     }
 
+    count() {
+        return this._clients.length;
+    }
+
     /**
      * @param clientId
      * @return {{client: Client, game: Game, player: Player}}

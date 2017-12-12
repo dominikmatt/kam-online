@@ -1,6 +1,7 @@
 const BuildingFactory = require('./../buildings/BuildingFactory');
 
 module.exports = (res) => {
+    console.log(res.data);
     const buildingData = BuildingFactory(res.data.buildingId, res.data.type, res.data.owner);
 
     /** @var Building */

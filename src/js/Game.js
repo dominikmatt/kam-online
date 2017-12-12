@@ -4,7 +4,7 @@ const core = require('./core');
 require('./menu/menu');
 
 window.buildingsMapper = {
-    warehouse: require('./buildings/Warehouse'),
+    storehouse: require('./buildings/Storehouse'),
     quarry: require('./buildings/Quarry'),
 };
 

@@ -22,8 +22,13 @@ class Building {
         this._entryPosition = {x: 0, y: 0, z:0};
     }
 
-    build() {
-        this.addLaborerJobs();
+    build(done) {
+        if (!done) {
+            this.addLaborerJobs();
+        } else {
+            this._completionPercent = 100;
+        }
+
         this.generateCoordinatesArray();
     }
 
@@ -67,6 +72,7 @@ class Building {
     sendTo(toPlayer, fromPlayer) {
         const client = clientStack.get(this.clientId);
 
+        console.log('send', this.id);
         toPlayer.socket.emit('game.building.update', {
             from: fromPlayer.username,
             to: toPlayer.username,
@@ -135,6 +141,7 @@ class Building {
     set position(value) {
         this._position = value;
     }
+
     get completionPercent() {
         return this._completionPercent;
     }

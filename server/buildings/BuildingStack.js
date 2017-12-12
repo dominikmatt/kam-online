@@ -33,7 +33,7 @@ class BuildingStack {
         building.position = buildingData.position;
         building.clientId = clientId;
 
-        building.build();
+        building.build(buildingData.done);
 
         this._stack.push(building);
 

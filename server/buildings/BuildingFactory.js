@@ -2,7 +2,7 @@ const uuid = require('uuid/v4');
 const buildings = {};
 
 const buildingsMapper = {
-    warehouse: require('./Warehouse'),
+    storehouse: require('./Storehouse'),
     quarry: require('./Quarry'),
 };
 
